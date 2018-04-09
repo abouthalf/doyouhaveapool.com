@@ -5,7 +5,7 @@
     "dev": "next",
     "build": "next build && next export",
     "start": "next start",
-    "deploy": "gh-pages -d out --dotfiles"
+    "deploy": "touch out/CNAME && echo \"doyouhaveapool.com\" >> out/CNAME && gh-pages -d out --dotfiles"
   },
   "dependencies": {
     "gh-pages": "^1.1.0",

@@ -3,7 +3,7 @@ import { string } from 'prop-types'
 
 const defaultDescription = '';
 const defaultOGURL = 'http://doyouhaveapool.com';
-const defaultOGImage = '';
+const defaultOGImage = 'http://doyouhaveapool.com/static/motel6-thumbnail.jpg';
 
 const Head = (props) => (
   <NextHead>

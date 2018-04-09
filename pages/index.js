@@ -7,8 +7,7 @@ export default () => (
   <div className="canvas">
     &nbsp;
     <Head title="Do you have a pool?" 
-      description={metaDescription} 
-      ogImage='/static/motel6-thumbnail.jpg' />
+      description={metaDescription} />
 
     <div className="huh">
       <Link href="/about">
