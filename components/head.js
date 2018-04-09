@@ -42,6 +42,7 @@ const Head = (props) => (
     <meta name="msapplication-TileColor" content="#ffffff" />
     <meta name="msapplication-TileImage" content="/static/ms-icon-144x144.png" />
     <meta name="theme-color" content="#ffffff" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
   </NextHead>
 )
 
