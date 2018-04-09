@@ -45,7 +45,7 @@ export default () => (
 
         background-image: url('/static/images/wall.jpg');
         background-repeat: repeat-x;
-        background-size: 100vh 50vh;
+        background-size: auto 100%;
         background-position-x: 100vw;
         background-position-y: 0;
 
